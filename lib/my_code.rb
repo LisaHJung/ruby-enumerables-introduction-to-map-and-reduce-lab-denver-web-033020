@@ -1,7 +1,6 @@
 require "pry"
 
 def map_to_negativize(source_array)
-  binding.pry
   new_array = []
   i =0 
   while i<source_array. length
