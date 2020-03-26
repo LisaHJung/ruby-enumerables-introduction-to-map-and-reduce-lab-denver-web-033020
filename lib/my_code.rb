@@ -30,7 +30,7 @@ end
 new_array
 end
 
-def map_to_double(source_array)
+def map_to_square(source_array)
  new_array = []
   i =0 
   while i<source_array. length
