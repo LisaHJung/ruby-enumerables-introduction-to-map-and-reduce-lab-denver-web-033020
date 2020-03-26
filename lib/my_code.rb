@@ -69,21 +69,11 @@ def reduce_to_any_true(source_array)
   end
   i+=1 
 end
-source_array
+return false
 end
   
   
 
-def reduce_to_all_true(source_array)
-  number_index=0 
-  while number_index<source_array.length
-    if !source_array[number_index]
-      return false
-end
-number_index+=1
-end
-return true
-end
 
 
 
